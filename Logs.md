@@ -26,7 +26,7 @@
 ###  customize the log output by specifying the time range
 `git log --since="commits made within the last 5 minutes"`
 ###  Show logs in a personalized format
-`git log --pretty=format:"* %h %ad | %s [%an]" --date=short`
+`git log --pretty=format:"* %h %ad | %s %d [%an]" --date=short`
 
 # Check it out
 ### Restore First Snapshot
